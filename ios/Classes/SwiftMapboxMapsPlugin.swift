@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class SwiftMapboxMapsPlugin: MapboxMapsPlugin {
+public class SwiftMapboxMapsPluginOriginal: MapboxMapsPluginOriginal {
     override public static func register(with registrar: FlutterPluginRegistrar) {
         let instance = MapboxMapFactory(withRegistrar: registrar)
         registrar.register(instance, withId: "plugins.flutter.io/mapbox_maps")

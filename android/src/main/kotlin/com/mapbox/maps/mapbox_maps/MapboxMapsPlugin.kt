@@ -11,8 +11,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-/** MapboxMapsPlugin */
-class MapboxMapsPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
+/** MapboxMapsPluginOriginal */
+class MapboxMapsPluginOriginal : FlutterPlugin, MethodCallHandler, ActivityAware {
   private val optionsController = MapboxOptionsController()
 
   private var lifecycle: Lifecycle? = null

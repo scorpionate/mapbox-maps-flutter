@@ -1,4 +1,4 @@
-#import "MapboxMapsPlugin.h"
+#import "MapboxMapsPluginOriginal.h"
 #if __has_include(<mapbox_maps_flutter/mapbox_maps_flutter-Swift.h>)
 #import <mapbox_maps_flutter/mapbox_maps_flutter-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "mapbox_maps_flutter-Swift.h"
 #endif
 
-@implementation MapboxMapsPlugin
+@implementation MapboxMapsPluginOriginal
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftMapboxMapsPlugin registerWithRegistrar:registrar];
+  [SwiftMapboxMapsPluginOriginal registerWithRegistrar:registrar];
 }
 @end

@@ -30,7 +30,7 @@ import java.util.Date
 class MapboxMapController(
   context: Context,
   mapInitOptions: MapInitOptions,
-  private val lifecycleProvider: MapboxMapsPlugin.LifecycleProvider,
+  private val lifecycleProvider: MapboxMapsPluginOriginal.LifecycleProvider,
   eventTypes: List<Int>,
   messenger: BinaryMessenger,
   channelSuffix: Int,

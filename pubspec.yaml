@@ -39,6 +39,6 @@ flutter:
     platforms:
       android:
         package: com.mapbox.maps.mapbox_maps
-        pluginClass: MapboxMapsPlugin
+        pluginClass: MapboxMapsPluginOriginal
       ios:
-        pluginClass: MapboxMapsPlugin
+        pluginClass: MapboxMapsPluginOriginal

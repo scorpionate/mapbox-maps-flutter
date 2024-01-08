@@ -11,7 +11,7 @@ import java.lang.RuntimeException
 
 class MapboxMapFactory(
   private val messenger: BinaryMessenger,
-  private val lifecycleProvider: MapboxMapsPlugin.LifecycleProvider
+  private val lifecycleProvider: MapboxMapsPluginOriginal.LifecycleProvider
 ) : PlatformViewFactory(StandardMessageCodec.INSTANCE) {
 
   override fun create(context: Context?, viewId: Int, args: Any?): PlatformView {
