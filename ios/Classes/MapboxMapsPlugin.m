@@ -1,4 +1,4 @@
-#import "MapboxMapsPluginOriginal.h"
+#import "MapboxMapsPlugin.h"
 #if __has_include(<mapbox_maps_flutter/mapbox_maps_flutter-Swift.h>)
 #import <mapbox_maps_flutter/mapbox_maps_flutter-Swift.h>
 #else
